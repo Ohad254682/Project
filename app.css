@@ -1,0 +1,29 @@
+table{
+    width:400px;
+    height:100px;
+    text-align: center;
+}
+
+.btn{
+    color:white;
+    height:20px;
+    width:60px;
+}
+
+.btn-dlt{
+    background-color:red;
+}
+
+
+.btn-update{
+    background-color: yellow;
+}
+
+.btn-read{
+    background-color: blue;
+}
+
+
+.table-headings:nth-child(4){
+column-span: 3;
+}

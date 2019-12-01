@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body onload="init()">
+
+    <button onclick="onAddInputSection()">Add a new book</button>
+    <div class="input-section" hidden>
+       Enter a title <input id="name-input" type="text">
+       Enter a price <input id="price-input" type="number">
+        <button id="add-book-input" onclick="readAndAddNewBook()">Add</button>
+    </div>
+    <div class="update-section">
+    </div>
+    <table border=1>
+        <tbody class="book-table">
+
+        </tbody>
+    </table>
+    <div class="book-details" hidden>
+    </div>
+
+    <script src="controller.js"></script>
+    <script src="service.js"></script>
+    <script src="storage-service.js"></script>
+</body>
+
+</html>
